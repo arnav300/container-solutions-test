@@ -13,6 +13,7 @@ Single script to start your containers.
 
 - minikube start
 - minikube addons enable ingress
+- Make sure to place titanic.csv in /var/lib/mysql-files directory.
 Run the bash script to create containers
 - ./database_kubernetes.sh init
 The output of this script will display a URL. Use this URL to fetch data in postman
